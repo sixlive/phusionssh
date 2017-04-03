@@ -1,8 +1,8 @@
 # Phusion SSH
 
-Make it easy to test SSH commands with the Phusion Baseimage.
+Make it easy to test SSH commands with the [Phusion Baseimage](https://github.com/phusion/baseimage-docker).
 
-**This image contains and uses insecure ssh host keys!**
+***This image contains and uses insecure ssh host keys - DO NOT USE IN PRODUCTION!***
 
 # Setup
 ## Config
