@@ -4,7 +4,7 @@
 IMAGE := phusionssh
 HOST_PORT := 2288
 
-run:
+start:
 	docker run -it --rm -p $(HOST_PORT):2222 $(IMAGE)
 
 detatched:
