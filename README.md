@@ -25,5 +25,7 @@ Builds the container based on the settings in the makefile.
 
 Starts the container based on the config in the Makefile. This command starts it with the `-it --rm` options. If you want to start in detached mode run `make detatched`
 
+To access the container you can run `ssh root@localhost -p {host_port}` (host_port default is 2288)
+
 # Misc
 SSH runs on port `2222` so you will need to make sure you bind the port that you want to use for ssh on the host into the container.
